@@ -1,0 +1,38 @@
+body{
+    background-image: url(images/sunset.jpg);
+    background-size: cover;
+    
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+
+}
+.topleft{
+    position: absolute;
+    top: 0px;
+    color: white;
+}
+.topright{
+    position: absolute;
+    left: 90%;
+    top: 0px;
+    color: white;
+}
+.bottomleft{
+    position: absolute;
+    top: 90%;
+    bottom: 0px;
+    color: white;
+}
+.bottomright{
+    position: absolute;
+    top: 90%;
+    left: 85%;
+    bottom: 0px;
+    color: white;
+}
